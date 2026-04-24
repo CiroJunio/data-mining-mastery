@@ -1,0 +1,10 @@
+services:
+  lab-kdd:
+    image: python:3.11-slim
+    container_name: kdd_mission_reactor
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    command: /bin/bash

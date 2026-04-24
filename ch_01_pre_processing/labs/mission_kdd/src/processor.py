@@ -8,7 +8,8 @@ class KDDProcessor:
         self.merged_df = None
 
     def integrate_entities(self):
-        """Tarefa: Resolver Problema de Identificação de Entidade [cite: 228]"""
+        """Tarefa: Resolver Problema de Identificação de Entidade"""
+        
         pass
 
     def clean_missing_values(self):
